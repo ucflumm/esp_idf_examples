@@ -1,4 +1,4 @@
-# _ESP-IDF EXAMPLES & CONCEPTS_
+# _ESP-IDF Examples & concepts_
 
 My personal lists of concepts I feel that need commented examples for easier understanding.
 
