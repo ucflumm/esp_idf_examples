@@ -8,7 +8,7 @@ When the button is pressed, an LED blinks in a predefined traffic sequence with 
 
 ## Hardware diagram
 
-![Fritzing Diag](.docs/images/esp_32_rgb_led_bb.png)
+![Fritzing Diag](docs/images/esp_32_rgb_led_bb.png)
 
 ## Getting Started
 
