@@ -1,0 +1,7 @@
+# Ignore build files
+**/build/
+**/dist/
+
+# Ignore VS Code JSON files
+**/.vscode/*.json
+serve_htmx_idf/.devcontainer/devcontainer.json
