@@ -8,16 +8,15 @@ Often just the setup and trying out examples turns off people using ESP-IDF. So 
 
 ## Instructions
 
-Clone the repo
-`` git clone https://github.com/ucflumm/esp_idf_examples ``
+* Clone the repo `` git clone https://github.com/ucflumm/esp_idf_examples ``
 
-Open VSCode
+* Open VSCode
 
-Click on File->Open Folder...
+* Click on File->Open Folder...
 
 #### Important
 
-Select the **example directory** which you wish to flash. **Do not open the root directory** otherwise when you try to flash it will break.
+* Select the **example directory** which you wish to flash. **Do not open the root directory** otherwise when you try to flash it will break.
 
 ## project folder contents
 
