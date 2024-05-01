@@ -1,10 +1,14 @@
 # ESP-IDF Button Example
 
-This project demonstrates how to handle button press events using the ESP-IDF framework. 
+This project demonstrates how to handle button press events using the ESP-IDF framework.
 
 It shows basic things such as **semaphore** usage, **RTOS task creation** and **ISR handling**.
 
 When the button is pressed, an LED blinks in a predefined traffic sequence with blue being the yellow.
+
+## Hardware diagram
+
+![Fritzing Diag](../../esp_idf_examples/traffic_light_esp32/docs/images/esp_32_rgb_led_bb.png)
 
 ## Getting Started
 
