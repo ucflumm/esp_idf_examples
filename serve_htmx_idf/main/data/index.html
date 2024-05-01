@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMX Example</title>
+    <script src="https://unpkg.com/htmx.org"></script>
+    <script>
+        htmx.config.logging = true;
+        htmx.logger = function (msg) { console.log(msg); };
+    </script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div id="time-container">
+        <!-- Update the button to handle both triggers -->
+        <button hx-get="/get-time" hx-trigger="every 10s, click" hx-swap="outerHTML" hx-target="#time-display">
+            Click here or wait to see the server time updated every 10 seconds.
+        </button>
+        <div id="time-display">Current Time: --:--:--</div>
+    </div>
+</body>
+
+</html>
