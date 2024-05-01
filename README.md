@@ -10,7 +10,9 @@ Often just the setup and trying out examples turns off people using ESP-IDF. So 
 
 Clone the repo
 `` git clone https://github.com/ucflumm/esp_idf_examples ``
+
 Open VSCode
+
 Click on File->Open Folder...
 
 #### Important
